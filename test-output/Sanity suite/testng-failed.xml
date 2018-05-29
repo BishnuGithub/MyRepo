@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity suite]">
+  <test name="Ebay(failed)">
+    <classes>
+      <class name="ebay.testcases.LoginScreenTest">
+        <methods>
+          <include name="toVerifyLoginScreen"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ebay.testcases.LoginScreenTest -->
+    </classes>
+  </test> <!-- Ebay(failed) -->
+</suite> <!-- Failed suite [Sanity suite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay suite" duration-ms="48066" started-at="2018-04-04T10:48:36Z" finished-at="2018-04-04T10:49:24Z">
+    <groups>
+    </groups>
+    <test name="Ebay" duration-ms="48066" started-at="2018-04-04T10:48:36Z" finished-at="2018-04-04T10:49:24Z">
+      <class name="ebay.testcases.LoginScreenTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ebay.testcases.LoginScreenTest@52feb982]" name="setup" is-config="true" duration-ms="58077" started-at="2018-04-04T10:47:38Z" finished-at="2018-04-04T10:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="at()[pri:0, instance:ebay.testcases.LoginScreenTest@52feb982]" name="at" is-config="true" duration-ms="36" started-at="2018-04-04T10:48:36Z" finished-at="2018-04-04T10:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method status="PASS" signature="toVerifyLoginScreen()[pri:0, instance:ebay.testcases.LoginScreenTest@52feb982]" name="toVerifyLoginScreen" duration-ms="48001" started-at="2018-04-04T10:48:36Z" finished-at="2018-04-04T10:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyLoginScreen -->
+        <test-method status="PASS" signature="bt()[pri:0, instance:ebay.testcases.LoginScreenTest@52feb982]" name="bt" is-config="true" duration-ms="0" started-at="2018-04-04T10:49:24Z" finished-at="2018-04-04T10:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method status="PASS" signature="atlast()[pri:0, instance:ebay.testcases.LoginScreenTest@52feb982]" name="atlast" is-config="true" duration-ms="1" started-at="2018-04-04T10:49:24Z" finished-at="2018-04-04T10:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atlast -->
+      </class> <!-- ebay.testcases.LoginScreenTest -->
+    </test> <!-- Ebay -->
+  </suite> <!-- Ebay suite -->
+</testng-results>

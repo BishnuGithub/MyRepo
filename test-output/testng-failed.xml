@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ebay suite]">
+  <test thread-count="5" name="Ebay(failed)">
+    <classes>
+      <class name="ebay.testcases.LoginScreenTest">
+        <methods>
+          <include name="toVerifyLoginScreen"/>
+          <include name="bt"/>
+          <include name="atlast"/>
+          <include name="at"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ebay.testcases.LoginScreenTest -->
+    </classes>
+  </test> <!-- Ebay(failed) -->
+</suite> <!-- Failed suite [Ebay suite] -->
